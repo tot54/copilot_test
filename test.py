@@ -42,6 +42,7 @@ def DifferenceBetweenTwoDates(date1, date2):
 # 8. うるう年ではない2月28日からうるう年の2月29日の場合
 # 9. 日付ではない場合
 ###
+## 7,8のテストケースが上手く生成されなかった。
 def test_DifferenceBetweenTwoDates():
 	assert DifferenceBetweenTwoDates('2019/01/01', '2019/01/01') == 0
 	assert DifferenceBetweenTwoDates('2019/01/01', '2019/01/02') == 1
